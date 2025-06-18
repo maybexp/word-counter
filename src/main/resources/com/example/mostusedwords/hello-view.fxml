@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mostusedwords.WordCounter">
+   <children>
+      <TextArea fx:id="myTextArea" layoutY="-1.0" prefHeight="215.0" prefWidth="500.0" />
+      <Button layoutX="93.0" layoutY="234.0" mnemonicParsing="false" onAction="#getSum" prefHeight="25.0" prefWidth="67.0" text="Check" />
+      <Label fx:id="sumLabel" layoutX="314.0" layoutY="238.0" />
+   </children>
+</Pane>
