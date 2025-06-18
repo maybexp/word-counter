@@ -1,6 +1,6 @@
 # Word Counter
 
-A simple Java program from 2021 that counts how many times each word appears in a given comma-separated input.
+A simple Java program from 2021 that counts how many times each word appears in a comma-separated input.
 
 ## Features
 - GUI that accepts user input
